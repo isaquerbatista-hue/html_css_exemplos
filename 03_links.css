@@ -1,0 +1,46 @@
+body{
+    font-family: 'Segoe UI';
+    line-height: 1.6;
+    margin: 20px;
+    /*background: linear-gradient(45deg, green, #fff);
+    background: radial-gradient(ellipse,orange, #fff);
+    background: conic-gradient (from 90deg,red, white);*/
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.3 ease;
+}
+
+a:link{
+    color: orange;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover {
+    background-color: coral;
+    border-radius: 30px;
+}
+
+.link-topo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #34495e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.link-topo:hover{
+    background-color: blue;
+    border-radius: 50%;
+}

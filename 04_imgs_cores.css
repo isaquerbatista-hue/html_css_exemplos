@@ -1,1 +1,20 @@
 /* Digitação (Aqui) */
+h1{
+    /*offset-x offset-y blur color*/
+    text-shadow: 2px 2px 4px #000;
+}
+
+img{
+    border: 3px solid red;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+img:hover{
+/*transform: scale(1.10);*/
+/*transform: rotate(-45deg);*/
+transform: rotateY('10deg');
+border-color: blue;
+text-shadow: 0 4px 8px #000;
+opacity: 0.3;
+}
